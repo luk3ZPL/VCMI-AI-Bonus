@@ -1,0 +1,28 @@
+{
+	"name" : "AI Bonus",
+	"description" : "At the beginning of the game, all players receive a certain amount of resources, depending on the chosen difficulty level. AI players get more resources at higher difficulties.<br><br>Special thanks to val-gaav for ideas, suggestions and help.",
+	"author" : "luk3Z",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "https://creativecommons.org/licenses/by-sa/4.0/",
+	"contact" : "luk3z [at] duck.com",
+	"version" : "1.0",
+	"modType" : "AI",
+	"language" : "english",
+
+	"conflicts" :
+	[
+		"boost-ai",
+	],
+	
+	"compatibility" :
+	{
+		"min" : "1.4",
+	},
+
+	"changelog" :
+    {
+        "1.0"   : [ "Initial release" ],
+    },
+
+	"keepDisabled" : true,
+}

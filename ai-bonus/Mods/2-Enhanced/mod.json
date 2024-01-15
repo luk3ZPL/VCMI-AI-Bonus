@@ -1,0 +1,17 @@
+{
+	"name" : "2. Enhanced AI bonus",
+	"description" : "AI players get more resources at higher difficulties.",
+	"author" : "luk3Z",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"contact" : "",
+	"version" : "1.0",
+	"modType" : "AI",
+	"conflicts" :
+	[
+		"ai-bonus.1-default",
+		"ai-bonus.3-advanced",
+		"ai-bonus.4-expert",	
+	],
+	"keepDisabled" : true,
+}

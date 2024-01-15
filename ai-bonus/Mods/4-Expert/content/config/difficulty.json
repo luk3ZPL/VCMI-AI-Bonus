@@ -1,0 +1,77 @@
+//Configured difficulty
+{
+	"ai":
+	{
+		"pawn":
+		{
+			"resources": { "wood" : 5, "mercury": 2, "ore": 5, "sulfur": 2, "crystal": 2, "gems": 2, "gold": 5000, "mithril": 0 },
+			"globalBonuses": [
+                {
+                    "type" : "GENERATE_RESOURCE",
+                    "subtype" : "resource.gold",
+                    "val" : 100,
+                    "duration" : "PERMANENT",
+                    "sourceType" : "OTHER"
+                },
+			],
+			"battleBonuses": []
+		},
+		"knight":
+		{
+			"resources": { "wood" : 10, "mercury": 4, "ore": 10, "sulfur": 4, "crystal": 4, "gems": 4, "gold": 7500, "mithril": 0 },
+			"globalBonuses": [
+                {
+                    "type" : "GENERATE_RESOURCE",
+                    "subtype" : "resource.gold",
+                    "val" : 150,
+                    "duration" : "PERMANENT",
+                    "sourceType" : "OTHER"
+                },
+			],
+			"battleBonuses": []
+		},
+		"rook":
+		{
+			"resources": { "wood" : 15, "mercury": 7, "ore": 15, "sulfur": 7, "crystal": 7, "gems": 7, "gold": 10000, "mithril": 0 },
+			"globalBonuses": [
+                {
+                    "type" : "GENERATE_RESOURCE",
+                    "subtype" : "resource.gold",
+                    "val" : 200,
+                    "duration" : "PERMANENT",
+                    "sourceType" : "OTHER"
+                },
+			],
+			"battleBonuses": []
+		},
+		"queen":
+		{
+			"resources": { "wood" : 20, "mercury": 7, "ore": 20, "sulfur": 7, "crystal": 7, "gems": 7, "gold": 15000, "mithril": 0 },
+			"globalBonuses": [
+                {
+                    "type" : "GENERATE_RESOURCE",
+                    "subtype" : "resource.gold",
+                    "val" : 300,
+                    "duration" : "PERMANENT",
+                    "sourceType" : "OTHER"
+                },
+			],
+			"battleBonuses": []
+		},
+		"king":
+		{
+			"resources": { "wood" : 25, "mercury": 7, "ore": 25, "sulfur": 7, "crystal": 7, "gems": 7, "gold": 20000, "mithril": 0 },
+			"globalBonuses": [
+                {
+                    "type" : "GENERATE_RESOURCE",
+                    "subtype" : "resource.gold",
+                    "val" : 500,
+                    "duration" : "PERMANENT",
+                    "sourceType" : "OTHER"
+                },
+			],
+			"battleBonuses": []
+		}
+	},
+}
+
